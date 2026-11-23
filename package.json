@@ -1,0 +1,17 @@
+{
+  "name": "moongrove-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Moongrove — Evolution Match Puzzle. TypeScript/CSS source; builds the deployable game into dist/.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "verify": "node tools/verify-levels.mjs",
+    "serve": "node tools/serve.mjs",
+    "deploy": "node tools/deploy.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "typescript": "^5.9.0"
+  }
+}
